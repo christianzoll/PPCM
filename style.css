@@ -26,10 +26,12 @@ img {
 
 h3{
   letter-spacing: 3px;
+  font-weight: 700;
 }
 
 h1{
   font-family: 'Fraunces', serif;
+  color: hsl(212, 21%, 14%);
 }
 
 .prices {
@@ -40,6 +42,14 @@ h1{
 
 .discounted-price{
   color: hsl(158, 36%, 37%);
+  font-size: xx-large;
+}
+
+.original-price{
+  padding: 12px;
+  font-size: 12px;
+  text-decoration: line-through;
+  margin-left: 7px;
 }
 
 button {
@@ -54,5 +64,6 @@ button {
   padding: 25px;
   font-family: 'Montserrat', sans-serif;
   overflow: scroll;
-  
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
 }
