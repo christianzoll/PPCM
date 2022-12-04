@@ -5,13 +5,30 @@
 
 p {
   font-size: 14px;
+  line-height: 22px  
 }
-
 
 .card-container {
     background-color: hsl(30, 38%, 92%);
-    padding: 25px;
+    padding: 2px;
 }
+
+h3{
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+
+.category{
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+
+h1{
+  font-family: 'Fraunces', serif;
+  color: hsl(212, 21%, 14%);
+  line-height:28px;
+}
+
 .assets-container {
     margin: 25px;
     border-radius: 15px;
@@ -21,17 +38,7 @@ p {
 img {
  width: 100%;
  height: auto;
-   border-radius: 15px 15px 0 0; 
-}
-
-h3{
-  letter-spacing: 3px;
-  font-weight: 700;
-}
-
-h1{
-  font-family: 'Fraunces', serif;
-  color: hsl(212, 21%, 14%);
+ border-radius: 15px 15px 0 0; 
 }
 
 .prices {
@@ -44,7 +51,6 @@ h1{
   color: hsl(158, 36%, 37%);
   font-size: xx-large;
 }
-
 .original-price{
   padding: 12px;
   font-size: 12px;
@@ -56,8 +62,9 @@ button {
   background-color: hsl(158, 36%, 37%);
   color: white;
   border-style: none;
-  border: 15px;
+  border-radius: 9px;
   padding: 17px;
+  width: 100%;
 }
 
 .copy {
