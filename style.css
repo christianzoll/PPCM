@@ -3,22 +3,47 @@
   padding: 0;
 }
 
+p {
+  font-size: 14px;
+}
+
 img {
  width: 100%;
  height: auto;
+   border-radius: 15px 15px 0 0; 
+}
+
+h3{
+  letter-spacing: 3px;
 }
 
 .card-container {
   background-color: hsl(30, 38%, 92%);
+  padding: 25px;
 }
 .assets-container {
   margin: 25px;
   border-radius: 15px;
-  padding: 50px;
   background-color: white;
 }
 
 .prices {
   display: flex;
   flex-direction: row;
+}
+
+.discounted-price{
+  color: hsl(158, 36%, 37%);
+}
+
+button {
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  border-style: none;
+  border: 15px;
+  padding: 17px;
+}
+
+.copy {
+  padding: 25px;
 }
