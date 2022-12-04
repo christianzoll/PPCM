@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./style.css">
   <title>Frontend Mentor | Product preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -18,7 +18,15 @@
   
 <div class="card-container">
   <div class="assets-container">
-  <img src="./images/image-product-mobile.jpg" alt="perfume bottle"></img>
+  
+<!--<picture> lets us continue catering to older browsers. You can supply MIME types inside type attributes so the browser can immediately reject unsupported file types-->
+  <picture>
+
+    <img src="./images/image-product-mobile.jpg" alt="perfume bottle"></img>
+  </picture>  
+
+
+
   <h3>Preview</h3>
   
   <h1>Gabrielle Essence Eau De Parfum</h1>
