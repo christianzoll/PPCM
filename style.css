@@ -7,6 +7,17 @@ p {
   font-size: 14px;
 }
 
+
+.card-container {
+    background-color: hsl(30, 38%, 92%);
+    padding: 25px;
+}
+.assets-container {
+    margin: 25px;
+    border-radius: 15px;
+    background-color: white;
+}
+
 img {
  width: 100%;
  height: auto;
@@ -17,19 +28,14 @@ h3{
   letter-spacing: 3px;
 }
 
-.card-container {
-  background-color: hsl(30, 38%, 92%);
-  padding: 25px;
-}
-.assets-container {
-  margin: 25px;
-  border-radius: 15px;
-  background-color: white;
+h1{
+  font-family: 'Fraunces', serif;
 }
 
 .prices {
   display: flex;
   flex-direction: row;
+  font-family: 'Fraunces', serif;
 }
 
 .discounted-price{
@@ -46,4 +52,7 @@ button {
 
 .copy {
   padding: 25px;
+  font-family: 'Montserrat', sans-serif;
+  overflow: scroll;
+  
 }
