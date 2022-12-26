@@ -1,0 +1,7 @@
+FEM
+2hrs = mobile view 85% complete.
+￼
+30min = desktop flex & height settings
+https://www.freecodecamp.org/news/html-page-width-height/
+
+30min = learning min-width media query
