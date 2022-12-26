@@ -74,3 +74,10 @@ button {
   font-weight: 500;
   color: hsl(228, 12%, 48%);
 }
+
+@media (min-width: 424px){
+  .assets-container{
+    display: flex;
+    flex-direction: row;
+  }
+}
